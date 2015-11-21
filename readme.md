@@ -10,11 +10,15 @@ Using Composer
 
 Add the service provider to `config/app.php`
 
-    Rry\Reminder\ReminderServiceProvider::class,
+```php
+Rry\Reminder\ReminderServiceProvider::class,
+```
 
 Optionally include the Facade in config/app.php if you'd like.
 
-    'Reminder'  => Rry\Reminder\ReminderFacade::class,
+```php
+'Reminder'  => Rry\Reminder\ReminderFacade::class,
+```
 
 > You can use reminder() function available.
 
