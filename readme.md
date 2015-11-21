@@ -52,6 +52,27 @@ Route::get('/', function () {
 });
 ```
 
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Laravel</title>
+        <link rel="stylesheet" href="http://cdn.bootcss.com/toastr.js/latest/css/toastr.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="content">
+                <div class="title">Laravel 5</div>
+            </div>
+        </div>
+
+        <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://cdn.bootcss.com/toastr.js/latest/js/toastr.min.js"></script>
+        {!! reminder()->message() !!}
+    </body>
+</html>
+```
+
 ![](http://ww3.sinaimg.cn/mw690/baa3278fgw1ey7ky56nbgj20n60fuaav.jpg)
 
 ### Options
